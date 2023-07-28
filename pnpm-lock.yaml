@@ -14,6 +14,12 @@ dependencies:
   '@headlessui/react':
     specifier: ^1.7.15
     version: 1.7.15(react-dom@18.2.0)(react@18.2.0)
+  '@headlessui/tailwindcss':
+    specifier: ^0.2.0
+    version: 0.2.0(tailwindcss@3.3.2)
+  '@heroicons/react':
+    specifier: ^2.0.18
+    version: 2.0.18(react@18.2.0)
   '@pinecone-database/pinecone':
     specifier: ^0.1.6
     version: 0.1.6
@@ -77,6 +83,9 @@ dependencies:
   react-tooltip:
     specifier: ^5.16.1
     version: 5.16.1(react-dom@18.2.0)(react@18.2.0)
+  remixicon-react:
+    specifier: ^1.0.0
+    version: 1.0.0(react@18.2.0)
   replicate:
     specifier: ^0.9.3
     version: 0.9.3
@@ -310,6 +319,23 @@ packages:
       client-only: 0.0.1
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
+    dev: false
+
+  /@headlessui/tailwindcss@0.2.0(tailwindcss@3.3.2):
+    resolution: {integrity: sha512-fpL830Fln1SykOCboExsWr3JIVeQKieLJ3XytLe/tt1A0XzqUthOftDmjcCYLW62w7mQI7wXcoPXr3tZ9QfGxw==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      tailwindcss: ^3.0
+    dependencies:
+      tailwindcss: 3.3.2
+    dev: false
+
+  /@heroicons/react@2.0.18(react@18.2.0):
+    resolution: {integrity: sha512-7TyMjRrZZMBPa+/5Y8lN0iyvUU/01PeMGX2+RE7cQWpEUIcb4QotzUObFkJDejj/HUH4qjP/eQ0gzzKs2f+6Yw==}
+    peerDependencies:
+      react: '>= 16'
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /@humanwhocodes/config-array@0.11.10:
@@ -3572,6 +3598,14 @@ packages:
       call-bind: 1.0.2
       define-properties: 1.2.0
       functions-have-names: 1.2.3
+    dev: false
+
+  /remixicon-react@1.0.0(react@18.2.0):
+    resolution: {integrity: sha512-KOXlc8EdKdujr2f/2idyFSQRjUB8p0HNiWZYBBzRsTRlTXFuSAFfnGq9culNjhCGmc92Jbtfr9OP0MXWvTMdsQ==}
+    peerDependencies:
+      react: '>=0.14.0'
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /replicate@0.9.3:
